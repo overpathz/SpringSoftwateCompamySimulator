@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+</head>
+<body>
+    <form action="/home" method="post">
+        <input type="submit" value="Increment">
+        <br>
+        <br>
+    </form>
+
+    <form action="/clear" method="post">
+        <input type="submit" value="Clear">
+        <br>
+        <br>
+    </form>
+
+    <h1 th:text="${message}"></h1>
+</body>
+</html>

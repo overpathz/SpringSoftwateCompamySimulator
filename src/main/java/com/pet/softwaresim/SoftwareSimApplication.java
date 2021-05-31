@@ -1,13 +1,13 @@
-package com.pet.softwaresimulator;
+package com.pet.softwaresim;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SoftwareSimulatorApplication {
+public class SoftwareSimApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SoftwareSimulatorApplication.class, args);
+		SpringApplication.run(SoftwareSimApplication.class, args);
 	}
 
 }

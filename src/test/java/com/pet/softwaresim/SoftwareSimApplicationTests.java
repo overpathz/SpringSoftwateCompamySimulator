@@ -1,10 +1,10 @@
-package com.pet.softwaresimulator;
+package com.pet.softwaresim;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SoftwareSimulatorApplicationTests {
+class SoftwareSimApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.pet.software-simulator' is invalid and this project uses 'com.pet.softwaresimulator' instead.
+* The original package name 'com.pet.software-sim' is invalid and this project uses 'com.pet.softwaresim' instead.
 
 # Getting Started
 
