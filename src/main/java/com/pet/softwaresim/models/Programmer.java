@@ -6,14 +6,24 @@ public class Programmer implements Employee {
 
     private String name;
     private double salary;
+    private int yearExperience;
 
-    public Programmer(String name) {
+    public Programmer(String name, int yearExperience) {
+        this.yearExperience = yearExperience;
         this.name = name;
         this.salary = 100;
     }
 
     public double getSalary() {
         return salary;
+    }
+
+    public int getYearExperience() {
+        return yearExperience;
+    }
+
+    public void setYearExperience(int yearExperience) {
+        this.yearExperience = yearExperience;
     }
 
     public void setSalary(double salary) {
@@ -29,7 +39,7 @@ public class Programmer implements Employee {
     }
 
     @Override
-    public void doWork() {
-
+    public double doWork() {
+        return yearExperience * salary;
     }
 }

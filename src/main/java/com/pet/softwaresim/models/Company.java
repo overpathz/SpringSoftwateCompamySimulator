@@ -2,7 +2,6 @@ package com.pet.softwaresim.models;
 
 import com.pet.softwaresim.interfaces.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 
 import java.util.List;
 
@@ -15,6 +14,12 @@ public class Company {
         this.name = name;
         this.money = money;
         this.employees = employees;
+    }
+
+    public void doWork() {
+        for (Employee employee:employees) {
+            money += employee.doWork();
+        }
     }
 
     public String getName() {
@@ -40,4 +45,5 @@ public class Company {
     public void setEmployees(List<Employee> employees) {
         this.employees = employees;
     }
+
 }
