@@ -28,4 +28,5 @@ public class TemporaryController {
         model.addAttribute("message", String.valueOf(x));
         return "index";
     }
+    
 }
