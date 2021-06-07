@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 public class TemporaryController {
     private int x = 0;
+    private List<Employee> employees = new ArrayList<>();
 
     @GetMapping("/home")
     public String greet(Model model) {
