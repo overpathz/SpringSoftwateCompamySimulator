@@ -30,4 +30,9 @@ public class TemporaryController {
         return "index";
     }
     
+    @PostMapping("/testAdd")
+    public void testAdd() {
+        ;
+    }
+    
 }
